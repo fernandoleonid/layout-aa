@@ -43,7 +43,7 @@ main{
     width: 50%;
     display: flex;
     flex-direction: column;
-    
+    justify-content: space-between;
 }
 .conteudo h1{
     font-size: 96px;
@@ -80,6 +80,8 @@ main{
     background-color: lightgrey;
 }
 footer{
-    background-color: bisque;
-    height: 50px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
